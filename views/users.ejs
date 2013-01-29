@@ -1,0 +1,7 @@
+<% if (users.length) { %>
+	<ul>
+		<% users.forEach(function(aUser){ %>
+			<li><b><%= aUser.username %></b> (<%= aUser._id %>)</li>
+		<% }) %>
+	</ul>
+<% } %>

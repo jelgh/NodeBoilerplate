@@ -1,0 +1,18 @@
+{
+	"name": "node-example",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "2.5.x", 
+		"mongodb" : "1.1.11",
+		"mongoose" : "3.5.4",
+	    "ejs": ">= 0.0.0",
+		"passport": ">= 0.0.0",
+    	"passport-local": ">= 0.0.0",
+    	"crypto": ">= 0.0.0",
+    	"safe_datejs": "0.0.1"
+	},
+	"engines": {
+		"node": "0.8.x",
+		"npm": "1.1.x"
+	}
+}
